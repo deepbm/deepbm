@@ -1,0 +1,90 @@
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+
+.intro__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.intro__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__name > span:nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro__name > span:nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.intro__name > span:nth-child(3) {
+  margin-top: 10px;
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.intro__btn__hire {
+  width: 8rem;
+}
+
+.intro__icons {
+  display: flex;
+  gap: 0;
+  margin-top: 3rem;
+}
+
+.intro__icons > a > img {
+  transform: scale(0.5);
+}
+
+.intro__icons > a > img:hover {
+  cursor: pointer;
+}
+
+.intro__right {
+  flex: 1;
+  position: relative;
+}
+
+.intro__right > *:not(.blur) {
+  position: absolute;
+  z-index: 1;
+}
+
+.intro__right > img:nth-child(1) {
+  transform: scale(0.69);
+  top: -9%;
+  left: -15%;
+}
+
+.intro__right > img:nth-child(2) {
+  transform: scale(0.69);
+  top: -4.6rem;
+  left: -3rem;
+}
+
+.intro__right > img:nth-child(3) {
+  transform: scale(1.4);
+  left: 28%;
+}
+
+.intro__right > img:nth-child(4) {
+  transform: scale(0.6);
+  top: -19%;
+  left: -24%;
+  padding: 0;
+  border-radius: 50%;
+}

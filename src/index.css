@@ -12,6 +12,7 @@
 
 * {
   font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,8 +30,18 @@ body {
 }
 
 .button:hover {
-  border: 1px solid var(--orange);
+  /* border: 1px solid var(--orange); */
   background: white;
   color: var(--orange);
   cursor: pointer;
+}
+
+.blur {
+  position: absolute;
+  z-index: -9;
+  border-radius: 50%;
+  background: #edd0ff;
+  width: 22rem;
+  height: 14rem;
+  filter: blur(72px);
 }
