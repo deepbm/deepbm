@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.navbar__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__name {
+  font-size: 1.3rem;
+}
+
+.navbar__right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__menus {
+  flex: 10;
+}
+
+.navbar__menus > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  list-style: none;
+}
+
+.navbar__menus > ul > li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.navbar__btn__contact {
+  flex: 2;
+}
