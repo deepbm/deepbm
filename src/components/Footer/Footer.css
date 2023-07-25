@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: -0.5rem -3.5rem;
+  margin-top: -3rem;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  position: absolute;
+  margin-top: 4rem;
+  width: 100%;
+  color: white;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon__github {
+  font-size: 2rem;
+}
+
+.icon__velog {
+  font-size: 2rem;
+}
