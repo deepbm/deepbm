@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Intro from './components/Intro/Intro';
 import TechStack from './components/TechStack/TechStack';
 import Experience from './components/Experience/Experience';
+import Project from './components/Project/Project';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <TechStack />
       <Experience />
+      <Project />
     </div>
   );
 }
