@@ -18,9 +18,9 @@ export default function Intro() {
           <span>Hi! I am</span>
           <span>희연</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quae quaerat tenetur
-            numquam hic! Quas at debitis sed ut omnis voluptate dolorem, maiores earum quam autem
-            labore qui perspiciatis ullam.
+            프론트엔드 개발자가 되고 싶습니다. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Excepturi quae quaerat tenetur numquam hic! Quas at debitis sed ut omnis voluptate
+            dolorem, maiores earum quam autem labore qui perspiciatis ullam.
           </span>
         </div>
         <button className='button intro__btn__hire'>Hire me</button>
@@ -47,20 +47,8 @@ export default function Intro() {
         </div>
 
         {/* blur div */}
-        <div
-          className='blur'
-          style={{ top: '-18%', left: '56%', background: 'rgb(238, 210, 255' }}
-        ></div>
-        <div
-          className='blur'
-          style={{
-            top: '17rem',
-            left: '-9rem',
-            background: '#c1f5ff',
-            width: '21rem',
-            height: '11rem',
-          }}
-        ></div>
+        <div className='blur blur-intro1' style={{ background: '#edd0ff' }}></div>
+        <div className='blur blur-intro2' style={{ background: '#c1f5ff' }}></div>
       </div>
     </section>
   );
