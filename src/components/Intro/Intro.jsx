@@ -9,13 +9,16 @@ import thumbup from '../../img/thumbup.png';
 import crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import { useDarkMode } from '../../contexts/DarkMode';
 
 export default function Intro() {
+  const { darkMode } = useDarkMode();
+
   return (
     <section className='intro'>
       <div className='intro__left'>
         <div className='intro__name'>
-          <span>Hi! I am</span>
+          <span style={{ color: darkMode ? 'white' : '' }}>Hi! I am</span>
           <span>희연</span>
           <span>
             프론트엔드 개발자가 되고 싶습니다. Lorem ipsum dolor sit amet consectetur adipisicing

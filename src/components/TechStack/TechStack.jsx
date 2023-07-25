@@ -2,12 +2,15 @@ import React from 'react';
 import './TechStack.css';
 import glasses from '../../img/glasses.png';
 import Card from '../Card/Card';
+import { useDarkMode } from '../../contexts/DarkMode';
 
 export default function TechStack() {
+  const { darkMode } = useDarkMode();
+
   return (
     <section className='tech-stack'>
       <div className='awesome'>
-        <h2>Tech Stack</h2>
+        <h2 style={{ color: darkMode ? 'white' : '' }}>Tech Stack</h2>
       </div>
 
       <div className='cards'>

@@ -14,5 +14,6 @@
 }
 
 .floating-div > span {
+  color: black;
   font-size: 16px;
 }

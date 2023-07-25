@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.css';
+import Toggle from '../Toggle/Toggle';
 
 export default function Navbar() {
   return (
     <header className='navbar'>
       <div className='navbar__left'>
         <h1 className='navbar__name'>Huiyeon</h1>
-        <span>toggle</span>
+        <Toggle />
       </div>
       <div className='navbar__right'>
         <div className='navbar__menus'>
