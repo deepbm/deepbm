@@ -29,6 +29,7 @@
 .navbar__menus > ul {
   display: flex;
   gap: 2rem;
+  margin: 0;
   margin-right: 4rem;
   list-style: none;
 }
