@@ -42,3 +42,13 @@
 .navbar__btn__contact {
   flex: 2;
 }
+
+@media screen and (max-width: 480px) {
+  .navbar__menus > ul {
+    display: none;
+  }
+
+  .navbar__btn__contact {
+    display: none;
+  }
+}

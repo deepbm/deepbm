@@ -30,3 +30,14 @@
 .icon__velog {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-top: 0;
+  }
+
+  .footer__content {
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+}

@@ -3,7 +3,6 @@
   margin-top: 4rem;
   margin-bottom: 13rem;
   padding: 0 3rem;
-  height: 90vh;
 }
 
 .awesome > h2 {
@@ -27,4 +26,18 @@
   left: -9rem;
   width: 21rem;
   height: 26rem;
+}
+
+@media screen and (max-width: 480px) {
+  .tech-stack {
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 }

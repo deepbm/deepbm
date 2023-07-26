@@ -101,3 +101,21 @@
   width: 21rem;
   height: 26rem;
 }
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    gap: 7rem;
+    margin-bottom: 10rem;
+    height: 64rem;
+  }
+
+  .intro__right {
+    left: -3rem;
+    transform: scale(0.8);
+  }
+
+  .intro__right .blur {
+    display: none;
+  }
+}
