@@ -8,7 +8,7 @@ export default function TechStack() {
   const { darkMode } = useDarkMode();
 
   return (
-    <section className='tech-stack'>
+    <section className='tech-stack' id='TechStack'>
       <div className='awesome'>
         <h2 style={{ color: darkMode ? 'white' : '' }}>Tech Stack</h2>
       </div>

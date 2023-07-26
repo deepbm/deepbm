@@ -9,7 +9,7 @@ import HOC from '../../img/hoc.png';
 
 export default function Project() {
   return (
-    <section className='project'>
+    <section className='project' id='Project'>
       {/* heading */}
       <span>Recent Projects</span>
       <span>Portfolio</span>

@@ -32,11 +32,11 @@
   margin: 0;
   margin-right: 4rem;
   list-style: none;
+  cursor: pointer;
 }
 
 .navbar__menus > ul > li:hover {
   color: var(--orange);
-  cursor: pointer;
 }
 
 .navbar__btn__contact {
