@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin: -0.5rem -3.5rem;
-  margin-top: -3rem;
+  margin: 0 -3.5rem;
 }
 
 .footer__content {
@@ -11,9 +10,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 4rem;
   position: absolute;
-  margin-top: 4rem;
+  margin-top: 10rem;
   width: 100%;
   color: white;
 }
@@ -21,6 +19,7 @@
 .footer__icons {
   display: flex;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .icon__github {
@@ -34,10 +33,17 @@
 @media screen and (max-width: 480px) {
   .footer {
     margin-top: 0;
+    background: var(--orange);
+  }
+
+  .footer > img {
+    display: none;
   }
 
   .footer__content {
     gap: 1rem;
+    position: static;
+    margin-top: 4rem;
     margin-bottom: 3rem;
   }
 }

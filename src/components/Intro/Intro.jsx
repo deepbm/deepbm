@@ -2,10 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Intro.css';
 import github from '../../img/github.png';
-import instagram from '../../img/instagram.png';
-import vector1 from '../../img/Vector1.png';
-import vector2 from '../../img/Vector2.png';
-import boy from '../../img/boy.png';
+import velog from '../../img/velog.png';
+import introImg from '../../img/intro.png';
 import thumbup from '../../img/thumbup.png';
 import crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
@@ -23,27 +21,24 @@ export default function Intro() {
         <div className='intro__name'>
           <span style={{ color: darkMode ? 'white' : '' }}>Hi! I am</span>
           <span>희연</span>
-          <span>
-            프론트엔드 개발자가 되고 싶습니다. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Excepturi quae quaerat tenetur numquam hic! Quas at debitis sed ut omnis voluptate
-            dolorem, maiores earum quam autem labore qui perspiciatis ullam.
+          <span style={{ color: darkMode ? 'white' : 'black' }}>
+            현재에 머물지 않고 끊임없이 생각하며, 성장을 꿈꾸는
+            <br />웹 개발자 양희연의 포트폴리오 사이트입니다.
           </span>
         </div>
-        <button className='button intro__btn__hire'>Hire me</button>
         <div className='intro__icons'>
-          <a href='https://github.com/deepbm'>
+          <a href='https://github.com/deepbm' target='blank'>
             <img src={github} alt='github' />
           </a>
-          <a href='https://github.com/deepbm'>
-            <img src={instagram} alt='instagram' />
+          <a href='https://velog.io/@deepbm' target='blank'>
+            <img src={velog} alt='velog' />
           </a>
         </div>
+        <div className='blur blur-intro3' style={{ background: '#edd0ff' }}></div>
       </div>
 
       <div className='intro__right'>
-        <img src={vector1} alt='' />
-        <img src={vector2} alt='' />
-        <img src={boy} alt='' />
+        <img src={introImg} alt='' />
         <motion.img
           initial={{ left: '-36%' }}
           whileInView={{ left: '-24%' }}
@@ -60,7 +55,7 @@ export default function Intro() {
           <FloatingDiv img={crown} txt1='Web' txt2='Developer' />
         </motion.div>
         <motion.div
-          initial={{ top: '18rem', left: '9rem' }}
+          initial={{ top: '20rem', left: '7rem' }}
           whileInView={{ left: '0rem' }}
           transition={transition}
           style={{ top: '18rem', left: '0rem' }}
@@ -69,7 +64,7 @@ export default function Intro() {
         </motion.div>
 
         {/* blur div */}
-        <div className='blur blur-intro1' style={{ background: '#edd0ff' }}></div>
+        <div className='blur blur-intro1' style={{ background: '#fbf7a7' }}></div>
         <div className='blur blur-intro2' style={{ background: '#c1f5ff' }}></div>
       </div>
     </section>

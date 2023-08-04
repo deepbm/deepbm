@@ -12,11 +12,11 @@
 }
 
 .navbar__name {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .navbar__right {
-  flex: 1;
+  flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,14 +28,14 @@
 
 .navbar__menus > ul {
   display: flex;
+  justify-content: flex-end;
   gap: 2rem;
   margin: 0;
-  margin-right: 4rem;
   list-style: none;
   cursor: pointer;
 }
 
-.navbar__menus > ul > li:hover {
+.navbar__menus > ul li:hover {
   color: var(--orange);
 }
 

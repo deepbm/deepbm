@@ -15,25 +15,25 @@
 .intro__name {
   display: flex;
   flex-direction: column;
+  word-break: keep-all;
 }
 
 .intro__name > span:nth-child(1) {
   color: var(--black);
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .intro__name > span:nth-child(2) {
   color: var(--orange);
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .intro__name > span:nth-child(3) {
-  margin-top: 10px;
-  color: var(--gray);
+  margin-top: 30px;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .intro__btn__hire {
@@ -47,7 +47,8 @@
 }
 
 .intro__icons > a > img {
-  transform: scale(0.5);
+  margin-right: 16px;
+  border-radius: 14px;
 }
 
 .intro__icons > a > img:hover {
@@ -65,7 +66,7 @@
 }
 
 .intro__right > img:nth-child(1) {
-  transform: scale(0.69);
+  transform: scale(0.8);
   top: -9%;
   left: -15%;
 }
@@ -100,6 +101,13 @@
   left: -9rem;
   width: 21rem;
   height: 26rem;
+}
+
+.blur-intro3 {
+  top: 14rem;
+  left: 1rem;
+  width: 21rem;
+  height: 14rem;
 }
 
 @media screen and (max-width: 480px) {

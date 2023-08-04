@@ -10,6 +10,7 @@ export default function Footer() {
       <img src={Wave} alt='' style={{ width: '100%' }} />
       <div className='footer__content'>
         <span>deepbm27@gmail.com</span>
+        <span>양희연</span>
         <div className='footer__icons'>
           <BsGithub className='icon__github' />
           <SiVelog className='icon__velog' />

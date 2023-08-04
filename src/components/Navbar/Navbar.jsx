@@ -19,15 +19,14 @@ export default function Navbar() {
             <Link spy={true} to='TechStack' smooth={true}>
               <li>Tech Stack</li>
             </Link>
-            <Link spy={true} to='Experience' smooth={true}>
-              <li>Experience</li>
-            </Link>
             <Link spy={true} to='Project' smooth={true}>
               <li>Project</li>
             </Link>
+            <Link spy={true} to='Experience' smooth={true}>
+              <li>Experience</li>
+            </Link>
           </ul>
         </div>
-        <button className='button navbar__btn__contact'>Contact</button>
       </div>
     </header>
   );
