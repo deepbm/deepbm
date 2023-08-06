@@ -20,16 +20,24 @@ export default function Project() {
       {/* slider */}
       <Swiper slidesPerView={3.2} spaceBetween={40} grabCursor={true} className='project-slider'>
         <SwiperSlide>
-          <img src={todolistScreen} alt='' />
+          <a href='https://github.com/deepbm/to-do-list' target='blank'>
+            <img src={todolistScreen} alt='' />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={youtubeScreen} alt='' />
+          <a href='https://github.com/deepbm/youtube' target='blank'>
+            <img src={youtubeScreen} alt='' />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={shoesScreen} alt='' />
+          <a href='https://github.com/deepbm/shoes' target='blank'>
+            <img src={shoesScreen} alt='' />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={foodScreen} alt='' />
+          <a href='https://github.com/deepbm/food' target='blank'>
+            <img src={foodScreen} alt='' />
+          </a>
         </SwiperSlide>
       </Swiper>
     </section>
