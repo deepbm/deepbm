@@ -20,22 +20,22 @@ export default function Project() {
       {/* slider */}
       <Swiper slidesPerView={3.2} spaceBetween={40} grabCursor={true} className='project-slider'>
         <SwiperSlide>
-          <a href='https://github.com/deepbm/to-do-list' target='blank'>
+          <a href='https://starlit-cajeta-699011.netlify.app' target='blank'>
             <img src={todolistScreen} alt='' />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href='https://github.com/deepbm/youtube' target='blank'>
+          <a href='https://helpful-raindrop-507277.netlify.app' target='blank'>
             <img src={youtubeScreen} alt='' />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href='https://github.com/deepbm/shoes' target='blank'>
+          <a href='https://dapper-lily-9ae214.netlify.app' target='blank'>
             <img src={shoesScreen} alt='' />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href='https://github.com/deepbm/food' target='blank'>
+          <a href='https://mellifluous-manatee-f1415a.netlify.app' target='blank'>
             <img src={foodScreen} alt='' />
           </a>
         </SwiperSlide>
