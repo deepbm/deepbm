@@ -20,7 +20,7 @@ export default function TechStack() {
         <Card img={stack100} heading='CSS' detail='100%' />
         <Card img={stack70} heading='JavaScript' detail='90%' />
         <Card img={stack70} heading='React' detail='70%' />
-        <Card img={stack50} heading='TypeScript' detail='50%' />
+        {/* <Card img={stack50} heading='TypeScript' detail='50%' /> */}
       </div>
 
       {/* blur div */}
